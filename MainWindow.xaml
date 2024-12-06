@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        
         <!-- StackPanel for buttons and textboxes -->
         <StackPanel Orientation="Vertical" Margin="10">
             <!-- Input for Deck Name -->
