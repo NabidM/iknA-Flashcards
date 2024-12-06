@@ -7,6 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <!-- StackPanel for buttons and textboxes -->
+        <StackPanel Orientation="Vertical" Margin="10">
+            <!-- Input for Deck Name -->
+            <TextBox Name="DeckNameInput" Width="200" Margin="5" Text="Enter Deck Name" Foreground="Gray"
+             GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+            <!-- Button to Create Deck -->
+            <Button Content="Create Deck" Click="CreateDeck_Click" Margin="5"/>
 
+            <!-- Input for Flashcard Title and Body -->
+            <TextBox Name="FlashcardTitleInput" Width="200" Margin="5" Text="Enter Flashcard Title" Foreground="Gray"
+             GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+
+            <TextBox Name="FlashcardBodyInput" Width="200" Margin="5" Text="Enter Flashcard Body" Foreground="Gray"
+             GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+
+            <!-- Button to Create Flashcard -->
+            <Button Content="Create Flashcard" Click="CreateFlashcard_Click" Margin="5"/>
+
+            <!-- TreeView for displaying decks and flashcards -->
+            <TreeView ItemsSource="{Binding RootDecks}" Name="DeckTreeView" Margin="10,50,10,10">
+                <TreeView.ItemTemplate>
+                    <HierarchicalDataTemplate ItemsSource="{Binding SubDecks}">
+                        <TextBlock Text="{Binding Name}" />
+                    </HierarchicalDataTemplate>
+                </TreeView.ItemTemplate>
+            </TreeView>
+        </StackPanel>
     </Grid>
 </Window>

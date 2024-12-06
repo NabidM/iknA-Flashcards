@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|c:\\users\\nabid\\documents\\ikna flashcards\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|c:\\users\\nabid\\documents\\ikna flashcards\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|c:\\users\\nabid\\documents\\ikna flashcards\\classes\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|solutionrelative:classes\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|c:\\users\\nabid\\documents\\ikna flashcards\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|c:\\users\\nabid\\documents\\ikna flashcards\\classes\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|solutionrelative:classes\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|c:\\users\\nabid\\documents\\ikna flashcards\\classes\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|solutionrelative:classes\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|c:\\users\\nabid\\documents\\ikna flashcards\\classes\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|solutionrelative:classes\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|c:\\users\\nabid\\documents\\ikna flashcards\\classes\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F1CE17-65B7-4A5E-8167-91396A5335E9}|iknA Flashcards.csproj|solutionrelative:classes\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DataStorage.cs",
               "DocumentMoniker": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\Classes\\DataStorage.cs",
               "RelativeDocumentMoniker": "Classes\\DataStorage.cs",
               "ToolTip": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\Classes\\DataStorage.cs",
               "RelativeToolTip": "Classes\\DataStorage.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T11:40:16.931Z",
               "EditorCaption": ""
@@ -53,52 +57,48 @@
               "RelativeDocumentMoniker": "Classes\\Deck.cs",
               "ToolTip": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\Classes\\Deck.cs",
               "RelativeToolTip": "Classes\\Deck.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBgAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T11:27:46.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Flashcard.cs",
               "DocumentMoniker": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\Classes\\Flashcard.cs",
               "RelativeDocumentMoniker": "Classes\\Flashcard.cs",
               "ToolTip": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\Classes\\Flashcard.cs",
               "RelativeToolTip": "Classes\\Flashcard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T11:24:17.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\MainWindow.xaml*",
+              "RelativeToolTip": "MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-04T18:12:17.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nabid\\Documents\\iknA Flashcards\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T18:12:06.524Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
