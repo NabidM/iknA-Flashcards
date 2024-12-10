@@ -29,8 +29,32 @@ namespace iknA_Flashcards
             RootDecks = new ObservableCollection<Deck>();  // Initialize the RootDecks collection
 
             // Setting the data context for the binding (links XAML to the C# data)
+            DataContext = null;
             DataContext = this;
+
         }
+        // Load decks when the application starts
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Loading decks...");
+            var loadedDecks = DataStorage.LoadDecksFromFile();
+            RootDecks.Clear();
+            foreach (var deck in loadedDecks)
+            {
+                RootDecks.Add(deck);
+            }
+
+            MessageBox.Show($"Loaded {RootDecks.Count} root decks.");
+        }
+
+        // Save decks when the application closes
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            MessageBox.Show("Saving decks...");
+            DataStorage.SaveDecksToFile(RootDecks);
+            MessageBox.Show($"Saved {RootDecks.Count} root decks to {DataStorage.FilePath}");
+        }
+
 
         // This method is called when a TextBox gains focus
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)

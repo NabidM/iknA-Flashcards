@@ -13,7 +13,7 @@ namespace iknA_Flashcards.Classes
     public static class DataStorage
     {
         //a global variable refeerring to the file path of the json file
-        private static readonly string FilePath = "flashcards.json";
+        public static readonly string FilePath = "flashcards.json";
         //if were lucky, this will save the decks to a json file
         //an observable collection is a collection that notifies the UI when items are added or removed
         public static void SaveDecksToFile(ObservableCollection<Deck> decks)
@@ -43,7 +43,11 @@ namespace iknA_Flashcards.Classes
 
                 //if this returns null, return a new empty collcetion (i.e. there are no cards in the deck)
 
-                return JsonSerializer.Deserialize<ObservableCollection<Deck>>(json) ?? new ObservableCollection<Deck>();
+                return JsonSerializer.Deserialize<ObservableCollection<Deck>>(json, new JsonSerializerOptions
+                {
+                    IncludeFields = true // Include non-public fields for matching
+                }) ?? new ObservableCollection<Deck>();
+
             }
             catch (Exception ex)
             {
